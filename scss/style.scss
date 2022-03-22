@@ -79,9 +79,33 @@ header {
 
 body {
     background-color: $font-color-fff;
-    margin: auto;
-    width: 1216px;
+    // margin: auto;
+    // width: 1216px;
 }
+
+// .container1 {
+//     max-width: 1200px;
+//     margin: auto;
+//     padding: 0px 15px;
+// }
+
+// @media (max-width: 1200px) {
+//     .container1 {
+//         max-width: 970px;
+//     }
+// }
+
+// @media screen (max-width: 992px) {
+//     .container1 {
+//         max-width: 750px;
+//     }
+// }
+
+// @media (max-width: 767px) {
+//     .container1 {
+//         max-width: none;
+//     }
+// }
 
 a {
     text-decoration: none;

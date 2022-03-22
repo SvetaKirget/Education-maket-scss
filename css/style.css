@@ -984,3 +984,123 @@ header nav ul li p {
   height: 8px;
   margin: auto;
 }
+
+@media screen and (max-width: 992px) {
+  body {
+    width: 750px;
+    background-color: #e1ebf5;
+  }
+
+  .header-contact-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  nav ul li {
+    display: none;
+  }
+
+  .ed-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .exams-items p {
+    width: 400px;
+  }
+
+  .black-block {
+    margin: auto;
+  }
+
+  .all_blocks-d {
+    margin: auto;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .btn-show-all-d {
+    width: 300px;
+    margin: auto;
+  }
+
+  .diploma {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .exams {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .study {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .footer-black {
+    width: 600px;
+    height: 1900px;
+  }
+  .footer-black .question-answer {
+    border: none;
+  }
+  .footer-black .question-answer h1 {
+    display: none;
+  }
+  .footer-black .question-answer p {
+    display: none;
+  }
+  .footer-black .footer-black-questions h2 {
+    text-align: center;
+    border: none;
+    margin: auto;
+  }
+
+  .white-block {
+    width: 400px;
+    height: 1000px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .privacy-policy {
+    width: 200px;
+    margin: auto;
+  }
+
+  .all-info-about-education {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+  }
+
+  .btn-all-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    width: 300px;
+  }
+  .btn-all-info .btn-all {
+    margin-left: 250px;
+  }
+}

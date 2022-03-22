@@ -79,33 +79,9 @@ header {
 
 body {
     background-color: $font-color-fff;
-    // margin: auto;
-    // width: 1216px;
+    margin: auto;
+    width: 1216px;
 }
-
-// .container1 {
-//     max-width: 1200px;
-//     margin: auto;
-//     padding: 0px 15px;
-// }
-
-// @media (max-width: 1200px) {
-//     .container1 {
-//         max-width: 970px;
-//     }
-// }
-
-// @media screen (max-width: 992px) {
-//     .container1 {
-//         max-width: 750px;
-//     }
-// }
-
-// @media (max-width: 767px) {
-//     .container1 {
-//         max-width: none;
-//     }
-// }
 
 a {
     text-decoration: none;
@@ -1115,5 +1091,106 @@ header nav ul {
         width: 8px;
         height: 8px;
         margin: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        width: 750px;
+        background-color: rgb(225, 235, 245);
+    }
+
+    .header-contact-info {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .ed-main {
+        flex-direction: column;
+    }
+
+    .exams-items p {
+        width: 400px;
+    }
+
+    .black-block {
+        margin: auto;
+    }
+
+    .all_blocks-d {
+        margin: auto;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .btn-show-all-d {
+        width: 300px;
+        margin: auto;
+    }
+
+    .diploma {
+        flex-direction: column;
+    }
+
+    .exams {
+        flex-direction: column;
+    }
+
+    .study {
+        flex-direction: column;
+    }
+
+    .footer-black {
+        width: 600px;
+        height: 1900px;
+
+        .question-answer {
+            border: none;
+
+            h1 {
+                display: none;
+            }
+
+            p {
+                display: none;
+            }
+        }
+
+        .footer-black-questions h2 {
+            text-align: center;
+            border: none;
+            margin: auto;
+        }
+    }
+
+    .white-block {
+        width: 400px;
+        height: 1000px;
+        flex-direction: column;
+    }
+
+    .privacy-policy {
+        width: 200px;
+        margin: auto;
+    }
+
+    .all-info-about-education {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .btn-all-info {
+        flex-direction: column;
+        text-align: center;
+        width: 300px;
+
+        .btn-all {
+            margin-left: 250px;
+        }
     }
 }

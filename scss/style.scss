@@ -1096,8 +1096,14 @@ header nav ul {
 
 @media screen and (max-width: 992px) {
     body {
-        width: 750px;
+        width: 850px;
         background-color: rgb(225, 235, 245);
+        margin: auto;
+    }
+
+    * {
+        margin: auto;
+
     }
 
     .header-contact-info {
@@ -1116,12 +1122,26 @@ header nav ul {
         width: 400px;
     }
 
+    .directions h1 {
+        text-align: center;
+    }
+
+    .ed-main-img {
+        padding-top: 10px;
+
+        .moscow-img {
+            display: none;
+        }
+    }
+
     .black-block {
         margin: auto;
+
     }
 
     .all_blocks-d {
-        margin: auto;
+        margin-left: 250px;
+        flex-direction: column;
     }
 
     .logo {
@@ -1135,14 +1155,61 @@ header nav ul {
 
     .diploma {
         flex-direction: column;
+
+        .diploma-img {
+            margin-left: 200px;
+        }
+
+        .container-directions-one {
+            padding-bottom: 30px;
+        }
+    }
+
+    .diploma-info {
+        text-align: center;
+
+        h1 {
+            margin-left: 100px;
+        }
     }
 
     .exams {
         flex-direction: column;
+
+        .exams-items {
+            text-align: center;
+
+            h1 {
+                margin-left: 30px;
+                width: 450px;
+            }
+
+            p {
+                width: 500px;
+            }
+        }
+
+        .btn-info {
+            margin-bottom: 15px;
+        }
     }
+
 
     .study {
         flex-direction: column;
+
+        .study-img {
+            margin-bottom: 15px;
+        }
+
+        .study-items h1 {
+            width: 450px;
+
+            p {
+                text-align: center;
+                width: 450px;
+            }
+        }
     }
 
     .footer-black {
@@ -1153,7 +1220,7 @@ header nav ul {
             border: none;
 
             h1 {
-                display: none;
+                margin: auto;
             }
 
             p {
@@ -1175,8 +1242,7 @@ header nav ul {
     }
 
     .privacy-policy {
-        width: 200px;
-        margin: auto;
+        width: 700px;
     }
 
     .all-info-about-education {
@@ -1191,6 +1257,10 @@ header nav ul {
 
         .btn-all {
             margin-left: 250px;
+
+            p {
+                color: #000000;
+            }
         }
     }
 }

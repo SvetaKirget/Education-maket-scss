@@ -987,8 +987,13 @@ header nav ul li p {
 
 @media screen and (max-width: 992px) {
   body {
-    width: 750px;
+    width: 850px;
     background-color: #e1ebf5;
+    margin: auto;
+  }
+
+  * {
+    margin: auto;
   }
 
   .header-contact-info {
@@ -1013,12 +1018,27 @@ header nav ul li p {
     width: 400px;
   }
 
+  .directions h1 {
+    text-align: center;
+  }
+
+  .ed-main-img {
+    padding-top: 10px;
+  }
+  .ed-main-img .moscow-img {
+    display: none;
+  }
+
   .black-block {
     margin: auto;
   }
 
   .all_blocks-d {
-    margin: auto;
+    margin-left: 250px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .logo {
@@ -1036,6 +1056,19 @@ header nav ul li p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .diploma .diploma-img {
+    margin-left: 200px;
+  }
+  .diploma .container-directions-one {
+    padding-bottom: 30px;
+  }
+
+  .diploma-info {
+    text-align: center;
+  }
+  .diploma-info h1 {
+    margin-left: 100px;
+  }
 
   .exams {
     -webkit-box-orient: vertical;
@@ -1043,12 +1076,35 @@ header nav ul li p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .exams .exams-items {
+    text-align: center;
+  }
+  .exams .exams-items h1 {
+    margin-left: 30px;
+    width: 450px;
+  }
+  .exams .exams-items p {
+    width: 500px;
+  }
+  .exams .btn-info {
+    margin-bottom: 15px;
+  }
 
   .study {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .study .study-img {
+    margin-bottom: 15px;
+  }
+  .study .study-items h1 {
+    width: 450px;
+  }
+  .study .study-items h1 p {
+    text-align: center;
+    width: 450px;
   }
 
   .footer-black {
@@ -1059,7 +1115,7 @@ header nav ul li p {
     border: none;
   }
   .footer-black .question-answer h1 {
-    display: none;
+    margin: auto;
   }
   .footer-black .question-answer p {
     display: none;
@@ -1080,8 +1136,7 @@ header nav ul li p {
   }
 
   .privacy-policy {
-    width: 200px;
-    margin: auto;
+    width: 700px;
   }
 
   .all-info-about-education {
@@ -1102,5 +1157,8 @@ header nav ul li p {
   }
   .btn-all-info .btn-all {
     margin-left: 250px;
+  }
+  .btn-all-info .btn-all p {
+    color: #000000;
   }
 }

@@ -1096,7 +1096,7 @@ header nav ul {
 
 @media screen and (max-width: 992px) {
     body {
-        width: 850px;
+        width: 870px;
         background-color: rgb(225, 235, 245);
         margin: auto;
     }
@@ -1202,8 +1202,12 @@ header nav ul {
             margin-bottom: 15px;
         }
 
-        .study-items h1 {
-            width: 450px;
+        .study-items {
+            h1 {
+                width: 550px;
+                margin: auto;
+                text-align: center;
+            }
 
             p {
                 text-align: center;
@@ -1241,26 +1245,58 @@ header nav ul {
         flex-direction: column;
     }
 
-    .privacy-policy {
-        width: 700px;
-    }
+
 
     .all-info-about-education {
         flex-direction: column;
-        margin: auto;
+
+        .privacy-policy {
+            width: 700px;
+            margin-bottom: 30px;
+            margin-left: -35px;
+        }
     }
 
     .btn-all-info {
         flex-direction: column;
         text-align: center;
         width: 300px;
+        margin-bottom: 30px;
 
         .btn-all {
             margin-left: 250px;
 
             p {
-                color: #000000;
+                color: $font-color-000;
             }
+        }
+    }
+
+    .all-info-about-education {
+        .contact-info {
+            margin-top: 25px;
+            margin-left: 235px;
+            display: flex;
+            justify-content: space-around;
+
+            .number {
+                color: $font-color-000;
+            }
+
+            .time {
+                color: $font-color-000;
+            }
+
+            .footer-contact-items {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .select {
+        margin-left: 65px;
+        .select-education h1 {
+            color: $font-color-000;
         }
     }
 }

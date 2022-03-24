@@ -987,7 +987,7 @@ header nav ul li p {
 
 @media screen and (max-width: 992px) {
   body {
-    width: 850px;
+    width: 870px;
     background-color: #e1ebf5;
     margin: auto;
   }
@@ -1100,9 +1100,11 @@ header nav ul li p {
     margin-bottom: 15px;
   }
   .study .study-items h1 {
-    width: 450px;
+    width: 550px;
+    margin: auto;
+    text-align: center;
   }
-  .study .study-items h1 p {
+  .study .study-items p {
     text-align: center;
     width: 450px;
   }
@@ -1135,16 +1137,16 @@ header nav ul li p {
             flex-direction: column;
   }
 
-  .privacy-policy {
-    width: 700px;
-  }
-
   .all-info-about-education {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: auto;
+  }
+  .all-info-about-education .privacy-policy {
+    width: 700px;
+    margin-bottom: 30px;
+    margin-left: -35px;
   }
 
   .btn-all-info {
@@ -1154,11 +1156,38 @@ header nav ul li p {
             flex-direction: column;
     text-align: center;
     width: 300px;
+    margin-bottom: 30px;
   }
   .btn-all-info .btn-all {
     margin-left: 250px;
   }
   .btn-all-info .btn-all p {
+    color: #000000;
+  }
+
+  .all-info-about-education .contact-info {
+    margin-top: 25px;
+    margin-left: 235px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .all-info-about-education .contact-info .number {
+    color: #000000;
+  }
+  .all-info-about-education .contact-info .time {
+    color: #000000;
+  }
+  .all-info-about-education .contact-info .footer-contact-items {
+    margin-left: 20px;
+  }
+
+  .select {
+    margin-left: 65px;
+  }
+  .select .select-education h1 {
     color: #000000;
   }
 }
